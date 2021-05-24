@@ -1,0 +1,177 @@
+.Country {
+    padding: 10px;
+}
+
+
+.Btn {
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #7a76af;
+    padding: 12px;
+    margin: 1rem auto;
+    border-radius: 15px;
+    display: inline-block;
+    border: none;
+    transition: all 0.4s ease 0s;
+    cursor:pointer;
+
+}
+
+.Btn:hover {
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+}
+
+.Article {
+    display: flex;
+    flex-direction: column;
+}
+
+.Article h5{
+    font-weight: 600;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.Article span {
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+
+.Article h3 {
+    margin: 0 20px;
+    font-weight: 600;
+}
+
+.Borders {
+    display: flex;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px #7a76af;
+    max-width: 100%;
+}
+
+.Borders h3 {
+    margin: auto 0;
+
+}
+
+.Borders ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    list-style: none;
+
+}
+
+.Borders {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px #7a76af;
+}
+
+.Borders li:hover{
+    background-color: #7a76af;
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+
+}
+
+.Borders li{
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    box-shadow: 0 3px 7px rgba(0, 0, 0,  0.1);
+    margin: 20px;
+    background-color: #e8e8e8;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+.Link {
+    text-decoration: none;
+    color: black;
+}
+
+.Link:hover {
+    color:white;
+}
+
+@media (min-width: 640px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 768px) {
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+@media (min-width: 992px) {
+
+    .Article {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Article h5{
+        font-weight: 600;
+        margin: 10px 0;
+        font-size: 18px;
+    }
+
+    .Article span {
+        font-weight: 300;
+        letter-spacing: 3px;
+    }
+
+    .Article h3 {
+        margin: 0 20px;
+        font-weight: 600;
+    }
+
+
+    .Borders h3 {
+        margin: auto 0;
+    }
+
+
+
+
+
+
+    .Link {
+        text-decoration: none;
+        color: black;
+    }
+}
+
+
+
